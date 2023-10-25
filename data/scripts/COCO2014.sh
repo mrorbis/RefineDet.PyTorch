@@ -7,8 +7,8 @@ if [ -z "$1" ]
   then
     # navigate to ~/data
     echo "navigating to ~/data/ ..."
-    mkdir -p ~/data/datasets
-    cd ~/data/
+    mkdir -p data/datasets
+    cd data/
     mkdir -p ./coco
     cd ./coco
     mkdir -p ./images
